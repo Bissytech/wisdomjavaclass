@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!-- <script>
+    // . round is to round it up
+    let myAri = Math.round(3.111) 
+
+    console.log(myAri)
+    // .ceil is to round it up to highest possible number regardless of the .5 or not
+    let myCeil = Math.ceil(3.111) 
+    // rounds up to the lowest possible number regardless of the .5 or not
+    // let myFloor = Math.floor(4.5)
+    // console.log(myCeil)
+    // console.log(myFloor)
+    // let Tee = (Math.floor(Math.random() * 10));
+    // console.log(Tee)
+    // let Ten = Math.abs(-10);
+    // math.sqrt(100)
+    // math.pow(10,3)
+    // math.E 
+    // E has a constant value of 2.7
+  let theName = "I love Java"
+  let script = "Script"
+  let theAnswer = `${theName} ${script}`
+  console.log(theAnswer);
+
+  let yada = '56'
+//   let yad = parseInt(yada)
+//   console.log(yad)
+// console.log(Number(yada));
+// let yad = +yada
+// console.log(yad);
+// alert(yad)
+
+let yh = Math.random()* 100
+console.log(yh);
+</script> -->
+<script>
+    // loops
+     const arr = ['gfgh', 'gfg', 'gbdh', 'gdhh', 40, 90, 89, 738]
+    for( let i=0; i < arr.length; i++){
+    if( typeof arr[i] === 'number')
+    console.log(arr[i]);
+    }
+
+    let jada = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+    console.log(jada.split(' , '))
+    let hada = '30 Days Of JavaScript'
+    console.log(hada.trim())
+
+    let string = '30 Days Of JavaScript'
+console.log(string.match('a'))
+
+let jaja = 'JavaScript ' 
+console.log(jaja.repeat(2))
+
+let a = '22'
+let b = '55'
+console.log(`${a} ${b}`)
+console.log(a + ' ' + b);
+
+let c = '10'
+console.log(c === 10)
+
+console.log(parseInt(c))
+
+function createNum() {
+ let yaba =  Math.floor(Math.random()  * 100 )  
+if (yaba >= 50) {
+    return yaba
+}  else{
+    return 50
+} 
+}
+
+console.log(createNum())
+
+console.log(((Math.random() + 1) * 50).toFixed());
+
+let kuda = 'You cannot end a sentence with because because because is a conjunction'
+console.log(kuda.substr(31,23))
+
+let love = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
+console.log(love.match('love'))
+
+const now = new Date()
+const year = now.getFullYear() // return year
+const month = now.getMonth() + 1
+console.log(month)
+console.log(year)
+
+let firstName = 'Adewale'
+console.log(typeof(firstName))
+
+let myDate = new Date()
+console.log(myDate)
+
+// let dayUserInput = prompt('What day is today ?')
+
+let adaeze = prompt('How old are you?')
+if (adaeze == 18){
+    alert('you are eligible to apply')
+}else if(adaeze >=18){alert('pls try again next year')}
+else{alert('just dont bother, go and sleep')
+}
+
+let maga = 88
+maga = 88 ? console.log('terrere') : console.log('parara');
+
+const arry = [
+    'Asabeneh',
+    250,
+    true,
+    { country: 'Finland', city: 'Helsinki' },
+    { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
+] // arr containing different data types
+console.log(arry)
+
+if (condition) {
+    
+}
+switch ('david') {
+    case 'wizkid':
+        console.log('this is wizzy baby owo re lokeloke');
+        break;
+
+    default:
+        console.log('this is not wizkkid o, look for wizzy for me,');
+        break;
+}
+let thisPrompt = prompt('who is your biggest artist', 'input the text here')
+switch (thisPrompt) {
+    case 'david':
+        console.log('this is david');
+        
+        break;
+
+    default:
+        break;
+}
+
+</script>

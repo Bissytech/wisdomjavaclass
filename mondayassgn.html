@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+    <div class="theDiv">
+    <h1>Tell me the Days App</h1> 
+<h3>Enter a month:</h3>
+<input id="theInput" type="text">
+<button onclick="confirm()">Confirm</button>
+<p id="theDays"></p>
+</div>
+</body>
+</html>
+<script>
+let theInput = document.getElementById('theInput')
+let theDays = document.getElementById('theDays')
+confirm()
+function confirm(){
+let actualMonth = theInput.value
+let promptMonth = actualMonth.toLowerCase()
+
+    switch (promptMonth) {
+    case "january":
+        
+        theDays.innerHTML = 'There are 31 days in January'
+    
+        break;
+        case 'february':
+        theDays.innerHTML = 'There are 28 days/29days(leap year) in February'
+    
+        break;
+        case 'march':
+        theDays.innerHTML = 'There are 31 days in March'
+    
+        break;
+        case 'may':
+        theDays.innerHTML = 'There are 31 days In May'
+    
+        break;
+        case 'july':
+        theDays.innerHTML = 'There are 31 days in July'
+    
+        break;
+        case 'august':
+        theDays.innerHTML = 'There are 31 days in August'
+   
+        break;
+        case 'october':
+        theDays.innerHTML = 'There are 31 days in October'
+    
+        break;
+        case 'december':
+        theDays.innerHTML = 'There are 31 days in December'
+    
+        break;
+        case 'april':
+        theDays.innerHTML = 'There are 30 days in april'
+        break;
+        case 'june':
+        theDays.innerHTML = 'There are 30 days in June'
+        break;
+        case 'september':
+        theDays.innerHTML = 'There are 30 days in September'
+        break;
+        case 'november':
+        theDays.innerHTML = 'There are 30 days in November'
+        break;
+
+//     default:
+//         theDays.innerHTML = " default"
+//         break;
+ }
+}
+
+// another short cut method
+
+let myPrompt = prompt('enter month')
+switch (myPrompt.toLowerCase()) {
+    case 'jan':
+    case 'feb':
+    case 'mar':
+        console.log('it has 30 days');
+        break;
+
+    default:
+        break;
+}
+
+
+ 
+</script>

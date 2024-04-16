@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="theHead"></h1>
+</body>
+</html>
+<script>
+    let theHead = document.getElementById('theHead')
+let theMonth = prompt('Days in months of the year', 'Enter a month here')
+let actualMonth = theMonth.toLowerCase()
+
+switch (actualMonth) {
+    case 'january':
+        theHead.innerHTML = 'There are 31 days in January'
+    
+        break;
+        case 'february':
+        theHead.innerHTML = 'There are 28 days/29days(leap year) in February'
+    
+        break;
+        case 'march':
+        theHead.innerHTML = 'There are 31 days in March'
+    ;
+        break;
+        case 'may':
+        theHead.innerHTML = 'There are 31 days In May'
+    ;
+        break;
+        case 'july':
+        theHead.innerHTML = 'There are 31 days in July'
+    
+        break;
+        case 'august':
+        theHead.innerHTML = 'There are 31 days in August'
+   
+        break;
+        case 'october':
+        theHead.innerHTML = 'There are 31 days in October'
+    
+        break;
+        case 'december':
+        theHead.innerHTML = 'There are 31 days in December'
+    
+        break;
+        case 'april':
+        theHead.innerHTML = 'There are 30 days in april'
+        break;
+        case 'june':
+        theHead.innerHTML = 'There are 30 days in June'
+        break;
+        case 'september':
+        theHead.innerHTML = 'There are 30 days in September'
+        break;
+        case 'november':
+        theHead.innerHTML = 'There are 30 days in November'
+        break;
+
+    default:
+        break;
+}
+
+</script>
